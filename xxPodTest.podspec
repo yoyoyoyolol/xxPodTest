@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "xxPodTest"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of xxPodTest."
+  spec.summary      = "xxPodTest This is a test."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   DESC
+                     xxPodTest This is a test hahahaha
+                     DESC
 
   spec.homepage     = "https://github.com/yoyoyoyolol/xxPodTest.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -91,7 +92,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "Class", "Classes/*"
-  spec.exclude_files = non_arc_files
+  #spec.exclude_files = non_arc_files
 
   # spec.public_header_files = "Classes/**/*.h"
 
