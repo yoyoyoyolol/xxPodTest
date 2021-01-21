@@ -9,4 +9,8 @@
 
 @implementation XXKIt
 
+- (void)firstFunc{
+    NSLog(@"First Func");
+}
+
 @end

@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface XXKIt : NSObject
 
+- (void)firstFunc;
+
 @end
 
 NS_ASSUME_NONNULL_END
